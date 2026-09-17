@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="kk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4 Resume Team</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">K</span>
+          <span>Команда</span>
+        </div>
+        <nav class="topnav" aria-label="Навигация">
+          <a href="#home">Главная</a>
+          <a href="#resume">Резюме</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-text">
+            <p class="eyebrow">Студенты 3 курса</p>
+            <h1>Мы — команда, которая учится, создает и растет вместе.</h1>
+            <p class="lead">
+              В нашей команде есть разработка, дизайн, аналитика и продуктовая логика. Мы учимся на 3 курсе,
+              но уже работаем как единый проектный коллектив.
+            </p>
+            <a class="primary-btn" href="#resume">Посмотреть всех</a>
+          </div>
+        </section>
+
+        <section class="team-grid" aria-label="Список команды">
+          <article class="member-card active" data-target="person-1">
+            <img src="/Arsenteam/assets/WhatsApp Image 2026-09-17 at 16.40.30.jpeg" alt="Арсен" />
+            <div class="member-info">
+              <h3>Арсен</h3>
+              <p>Product Manager</p>
+            </div>
+          </article>
+
+          <article class="member-card" data-target="person-2">
+            <img src="/Arsenteam/assets/WhatsApp Image 2026-09-17 at 16.33.12.jpeg" alt="Асет" />
+            <div class="member-info">
+              <h3>Асет</h3>
+              <p>Frontend Developer</p>
+            </div>
+          </article>
+
+          <article class="member-card" data-target="person-3">
+            <img src="/Arsenteam/assets/WhatsApp Image 2026-09-17 at 16.40.59.jpeg" alt="Акылбек" />
+            <div class="member-info">
+              <h3>Акылбек</h3>
+              <p>UX/UI Designer</p>
+            </div>
+          </article>
+
+          <article class="member-card" data-target="person-4">
+            <img src="/Arsenteam/assets/WhatsApp Image 2026-09-17 at 16.39.44.jpeg" alt="Даниал" />
+            <div class="member-info">
+              <h3>Даниал</h3>
+              <p>Backend Developer</p>
+            </div>
+          </article>
+        </section>
+
+        <section class="resume-section" id="resume">
+          <div class="section-head">
+            <p class="eyebrow">Резюме</p>
+            <h2>Кто есть кто в команде</h2>
+          </div>
+
+          <div class="profile-tabs" aria-label="Профили команды">
+            <button class="tab-btn active" data-tab="person-1">Арсен</button>
+            <button class="tab-btn" data-tab="person-2">Асет</button>
+            <button class="tab-btn" data-tab="person-3">Акылбек</button>
+            <button class="tab-btn" data-tab="person-4">Даниал</button>
+          </div>
+
+          <div class="tab-panel active" id="person-1">
+            <div class="profile-card">
+              <div class="profile-visual">
+                <img src="/Arsenteam/assets/WhatsApp Image 2026-09-17 at 16.40.30.jpeg" alt="Арсен" />
+              </div>
+              <div class="profile-info">
+                <p class="eyebrow">Product Manager</p>
+                <h3>Арсен</h3>
+                <p class="summary">
+                  Руководит командой, распределяет задачи и следит за тем, чтобы проект развивался в правильном направлении.
+                  Опыт работы в продуктовой логике и планировании решений, но основное — это обучение на 3 курсе и практическая работа над проектами.
+                </p>
+
+                <div class="info-grid">
+                  <div>
+                    <span class="label">Опыт</span>
+                    <strong>Студент 3 курса</strong>
+                  </div>
+                  <div>
+                    <span class="label">Направление</span>
+                    <strong>Менеджмент, планирование</strong>
+                  </div>
+                  <div>
+                    <span class="label">Город</span>
+                    <strong>Алматы</strong>
+                  </div>
+                  <div>
+                    <span class="label">Email</span>
+                    <strong>arsen@student.kz</strong>
+                  </div>
+                </div>
+
+                <div class="skills-block">
+                  <h4>Навыки</h4>
+                  <ul>
+                    <li>Планирование задач</li>
+                    <li>Командная работа</li>
+                    <li>Аналитика</li>
+                    <li>Управление проектом</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="person-2">
+            <div class="profile-card">
+              <div class="profile-visual">
+                <img src="/Arsenteam/assets/WhatsApp Image 2026-09-17 at 16.33.12.jpeg" alt="Асет" />
+              </div>
+              <div class="profile-info">
+                <p class="eyebrow">Frontend Developer</p>
+                <h3>Асет</h3>
+                <p class="summary">
+                  Разрабатывает интерфейсы, делает сайты удобными и современными, а также помогает командной работе с визуальной частью проекта.
+                  Мы все студенты 3 курса, и каждый в этой команде растет через реальные задачи и практику.
+                </p>
+
+                <div class="info-grid">
+                  <div>
+                    <span class="label">Опыт</span>
+                    <strong>Студент 3 курса</strong>
+                  </div>
+                  <div>
+                    <span class="label">Направление</span>
+                    <strong>HTML, CSS, JavaScript</strong>
+                  </div>
+                  <div>
+                    <span class="label">Город</span>
+                    <strong>Астана</strong>
+                  </div>
+                  <div>
+                    <span class="label">Email</span>
+                    <strong>aset@student.kz</strong>
+                  </div>
+                </div>
+
+                <div class="skills-block">
+                  <h4>Навыки</h4>
+                  <ul>
+                    <li>Верстка</li>
+                    <li>JavaScript</li>
+                    <li>UX интерфейсы</li>
+                    <li>Адаптивный дизайн</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="person-3">
+            <div class="profile-card">
+              <div class="profile-visual">
+                <img src="/Arsenteam/assets/WhatsApp Image 2026-09-17 at 16.40.59.jpeg" alt="Акылбек" />
+              </div>
+              <div class="profile-info">
+                <p class="eyebrow">UX/UI Designer</p>
+                <h3>Акылбек</h3>
+                <p class="summary">
+                  Отвечает за визуальный стиль, интерфейсы и логическую структуру продукта. Дизайн для него — не только красота, но и удобство использования.
+                  Мы все студенты 3 курса и активно развиваемся в профессии через совместные проекты.
+                </p>
+
+                <div class="info-grid">
+                  <div>
+                    <span class="label">Опыт</span>
+                    <strong>Студент 3 курса</strong>
+                  </div>
+                  <div>
+                    <span class="label">Направление</span>
+                    <strong>Дизайн, UX/UI</strong>
+                  </div>
+                  <div>
+                    <span class="label">Город</span>
+                    <strong>Шымкент</strong>
+                  </div>
+                  <div>
+                    <span class="label">Email</span>
+                    <strong>akylbek@student.kz</strong>
+                  </div>
+                </div>
+
+                <div class="skills-block">
+                  <h4>Навыки</h4>
+                  <ul>
+                    <li>Figma</li>
+                    <li>UX исследования</li>
+                    <li>Брендинг</li>
+                    <li>Визуальная система</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="person-4">
+            <div class="profile-card">
+              <div class="profile-visual">
+                <img src="/Arsenteam/assets/WhatsApp Image 2026-09-17 at 16.39.44.jpeg" alt="Даниал" />
+              </div>
+              <div class="profile-info">
+                <p class="eyebrow">Backend Developer</p>
+                <h3>Даниал</h3>
+                <p class="summary">
+                  Работает с логикой сервера, данными и архитектурой приложения, чтобы проект был стабильным и функциональным.
+                  Мы все учимся на 3 курсе, но уже применяем знания на практике и строим рабочую командную модель.
+                </p>
+
+                <div class="info-grid">
+                  <div>
+                    <span class="label">Опыт</span>
+                    <strong>Студент 3 курса</strong>
+                  </div>
+                  <div>
+                    <span class="label">Направление</span>
+                    <strong>Node.js, базы данных</strong>
+                  </div>
+                  <div>
+                    <span class="label">Город</span>
+                    <strong>Караганда</strong>
+                  </div>
+                  <div>
+                    <span class="label">Email</span>
+                    <strong>danial@student.kz</strong>
+                  </div>
+                </div>
+
+                <div class="skills-block">
+                  <h4>Навыки</h4>
+                  <ul>
+                    <li>REST API</li>
+                    <li>Базы данных</li>
+                    <li>Безопасность</li>
+                    <li>Тестирование</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
